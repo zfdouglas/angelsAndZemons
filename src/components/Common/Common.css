@@ -1,0 +1,24 @@
+.FadeInButton {
+  animation: pulse 2s infinite 
+}
+
+.FadeInButton:hover {
+  border: none;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
