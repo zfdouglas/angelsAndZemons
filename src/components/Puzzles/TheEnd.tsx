@@ -29,7 +29,7 @@ export const TheEndPage = ({onClickForward}: TheEndProps) => {
                 />
             </div>
             <div style={{width: '100%', display: 'flex', flexWrap: 'wrap', placeContent: 'space-between center'}}>
-                <MoveForwardButton onClickForward={() => onClickForward(10)}/>
+                <MoveForwardButton onClickForward={() => onClickForward(9)}/>
             </div>
         </FullWidthCenteredContainer>
     )
